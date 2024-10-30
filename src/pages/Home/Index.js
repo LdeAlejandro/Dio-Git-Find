@@ -47,7 +47,7 @@ const handleGetData = async () => {
           <div>
             <input name="usuario" value={user} 
             onChange={(e) => setUser(e.target.value)} 
-            placeholder="@username"/>
+            placeholder="username"/>
             <button onClick={handleGetData}>Buscar</button>
           </div>
           <div>
